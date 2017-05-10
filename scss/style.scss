@@ -1,0 +1,111 @@
+.navbar {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3em 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: #282828;
+}
+
+.navbar-nav {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 0.7em;
+  margin: 0;
+}
+//
+// body {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 1em;
+//   font-weight: 400;
+//   line-height: 1.62;
+//   color: #767676;
+// }
+
+.london {
+  background: url('london.jpg');
+  background-size: cover;
+  height: calc(100vh);
+}
+
+.opener {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    padding: 10em 0 7em;
+    width: 100000px;
+    height: 100vh;
+}
+
+.rel-1 {
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 4.5em;
+  line-height: 1.2;
+  margin: 0 0 0.3em;
+  position: absolute;
+  width: 500px;
+  height: 113%;
+}
+
+.test {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin-right: 72%;
+  margin-top: -1%;
+}
+
+.block {
+  background: #000;
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  opacity: 0.3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 94%;
+  width: 150%;
+}
+
+.developer {
+  font-family: 'Roboto, sans-serif';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.25em;
+  margin-top: 58%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  background: #970a1b;
+  border: 2px solid #970a1b;
+  padding: 1.4em 3.5em 1.4em;
+  border-radius: 0;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background-color .3s ease-out;
+  -o-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+}
