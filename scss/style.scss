@@ -109,3 +109,13 @@ h1 {
   -o-transition: background-color .3s ease-out;
   transition: background-color .3s ease-out;
 }
+
+#about {
+  background-color: red;
+  height: calc(100vh);
+}
+
+#projects {
+  background-color: black;
+  height: calc(100vh);
+}
