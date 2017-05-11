@@ -16,10 +16,10 @@
         <div class="navbar-collapse collapse" id="navbar-collapse" aria-expanded="false" style="height: 0px;">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#home">Home</a></li>
-            <li class="about"><a href="#landing">About</a></li>
-            <li class=""><a href="#projects">Projects</a></li>
-            <li class=""><a href="#services">Technologies Used</a></li>
-            <li class=""><a href="#contacts">Contact</a></li>
+            <li class="about"><a href="#aboutAnch">About</a></li>
+            <li class=""><a href="#projectsAnch">Projects</a></li>
+            <li class=""><a href="#servicesAnch">Technologies Used</a></li>
+            <li class=""><a href="#contactsAnch">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -37,18 +37,14 @@
     </div>
   </main>
   <div class="content">
-    <span class="anchor" id="landing"></span>
+    <span class="anchor" id="aboutAnch"></span>
     <section class="section about" id="about">
       <div class="container">
           <div class="row-padding row-columns row">
             <div class="col-padding column col-md-6 col-md-push-6">
               <h2 class="section-title">About me</h2>
-              <p>After completing my B.A. at The University of Chicago, I moved to Mexico City to start a company with an online portal that would guide Mexican students through the American college application process. I came into this project with an entrepreneurial
-                spirit and a passion for education. After working closely as a stakeholder with our web developers, I quickly became fascinated by their ability to bring my ideas to life--it also sparked an interest in me to stay in the tech field and
-                eventually learn how to execute these ideas myself. </p>
-              <p>Upon returning to the U.S., I worked at a tech startup in vacation rentals, but soonafter decided to enroll in a Web Development Immersive program with the intention to gain more technical skills and further my career in the tech industry.
-                There, I devoted twelve hours a day to Javascript and Ruby coding challenges, elaborate assignments using Rails and Node, and projects that allowed me to practice what I enjoy most: solving problems and parsing them alongside colleagues
-                that share the same motivation and enthusiasm to learn and constantly better a product. </p>
+              <p> After graduating with a Business Management degree from The University of Birmingham in 2015, I decided to take a year off before starting my career, to travel and gain inspiration of where my path would lie next. </p> <p>However I was still unsure which direction to take so took an internship opportunity in corporate events. After a few months, I knew this wasn't for me and an important thing I learned during my travels was to do something that makes me truly happy.</p>
+              <p> I quickly became fascinated by coding through my research of the tech industry. The constant problem solving and unlimited creativity involved in coding was what really inticed me to start learning how to code myself. I took online courses and learnt basic code. This has led me to enroll in a Web Development Immersive program with the intention to gain more technical skills and further my career in the tech industry. There, I devoted twelve hours a day to Javascript and Ruby coding challenges, elaborate assignments using Rails and Node, and projects that allowed me to practice what I enjoy most.
             </div>
             <div class="col-padding column col-md-6 col-md-pull-6">
               <img alt="" class="img-responsive" src="bungy.jpg">
@@ -56,10 +52,131 @@
           </div>
         </div>
     </section>
-    <section class="projects" id="projects">
+    <section id="cv" class="cv text-center  bgc-light cvSection">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-md-offset-2">
+              <h2 class="section-titler">View My CV</h2>
+              <p class="lead-text"> My previous experience lies within the PR and  before deciding to learn how to code myself. Click below for a copy of my résumé. </p>
+            </div>
+          </div>
+          <div class="section-buttons section-body-sm">
+            <a href="scss/CV.pdf" target="_blank" class="btn cvBtn">Download CV</a>
+          </div>
+        </div>
+      </section>
+
+
+    <span class="anchor" id="projectsAnch"></span>
+    <section class= "projects bgc-light" id="projects">
+      <section id="portfolio" class="portfolio bgc-light sectionProject">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-md-offset-2">
+              <h2 class="section-title">Projects</h2>
+            </div>
+          </div>
+          <!-- <ul class="filter">
+            <li class="active"><a href="#" data-filter="*">All</a></li>
+            <li><a href="scss/penalty.jpg" data-filter=".digital">Front-end JS Game</a></li>
+            <li><a href="scss/divebook.jpg" data-filter=".branding">Ruby on Rails App</a></li>
+            <li><a href="scss/buff.jpg" data-filter=".marketing">MEN Stack App</a></li>
+            <li><a href="scss/travelog.jpg" data-filter=".video">MEAN Stack App</a></li>
+          </ul> -->
+          <div class="isotope js-gallery" style="position: relative; height: 874px;">
+            <div class="isotope-item digital" style="position: absolute; left: 0%; top: 0px;">
+              <a href="https://safe-harbor-23330.herokuapp.com/" target="_blank">
+                <figure class="img__wrap">
+                  <div><img class="img__img" alt="Project 1" src="scss/penalty.jpg"></div>
+                      <div class="showcase-item-title img__description">
+                        <div class="projTitle">
+                          Penalty Click-out <br> <h4>Frontend Javascript Game</h4>
+                        </div>
+                      </div>
+                  </figcaption>
+                </figure>
+
+                <button class="button" onclick="window.open('https://github.com/adrianwelch/Project-1');"><span class="View">View on Github</span></button>
+              </a>
+            </div>
+
+            <div class="isotope-item branding" style="position: absolute; left: 50%; top: 0px;">
+              <a href="scss/divebook.jpg" title="diveBook">
+                <figure class="img__wrap">
+                  <div><img class="img__img" alt="diveBook" src="scss/divebook.jpg"></div>
+                    <div class="showcase-item-info img__description">
+                      <div class="projTitle">
+                        diveBook <br> <h4>Node.js/Express App, built using <span class="db">M</span>ongo<span class="db">DB</span> </h4>
+                      </div>
+                    </div>
+                </figure>
+                <button class="button" onclick="window.open('https://github.com/adrianwelch/wdi25-project-2');"><span class="View">View on Github</span></button>
+              </a>
+            </div>
+            <div class="isotope-item marketing" style="position: absolute; left: 0%; top: 437px;">
+              <a href="scss/buff.jpg" title="Buff">
+                <figure class="showcase-item">
+                  <div class="showcase-item-thumbnail"><img alt="Buff" width="538" height="375" src="scss/buff.jpg"></div>
+                  <figcaption class="showcase-item-hover">
+                    <div class="showcase-item-info">
+                      <div class="showcase-item-category">Buff</div>
+                      <div class="showcase-item-title">MEN Stack App</div>
+                    </div>
+                  </figcaption>
+                </figure>
+                <button class="button" onclick="window.open('https://github.com/squaduno/jukebox');"><span class="View">View on Github</span></button>
+              </a>
+            </div>
+            <div class="isotope-item video" style="position: absolute; left: 50%; top: 437px;">
+              <a href="scss/travelog.jpg" title="Travelog">
+                <figure class="showcase-item">
+                  <div class="showcase-item-thumbnail"><img alt="travelog" width="538" height="375" src="scss/travelog.jpg"></div>
+                  <figcaption class="showcase-item-hover">
+                    <div class="showcase-item-info">
+                      <div class="showcase-item-category">College Tracker</div>
+                      <div class="showcase-item-title">MEAN Stack App</div>
+                    </div>
+                  </figcaption>
+                </figure>
+                <button class="button" onclick="window.open('https://github.com/rubisc/College_Tracker');"><span class="View">View on Github</span></button>
+              </a>
+            </div>
+            <!-- <div class="isotope-item digital">
+                <a href="img/portfolio/5.jpg" title="Stationery Design">
+                  <figure class="showcase-item">
+                    <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/5.jpg"></div>
+                    <figcaption class="showcase-item-hover">
+                      <div class="showcase-item-info">
+                        <div class="showcase-item-category">Branding</div>
+                        <div class="showcase-item-title">Stationery Design</div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div> -->
+            <!-- <div class="isotope-item video">
+                <a href="img/portfolio/6.jpg" title="Stationery Design">
+                  <figure class="showcase-item">
+                    <div class="showcase-item-thumbnail"><img alt="" src="img/portfolio/6.jpg"></div>
+                    <figcaption class="showcase-item-hover">
+                      <div class="showcase-item-info">
+                        <div class="showcase-item-category">Branding</div>
+                        <div class="showcase-item-title">Stationery Design</div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div> -->
+          </div>
+        </div>
+      </section>
     </section>
+
+
+    <span class="anchor" id="servicesAnch"></span>
     <section class="services" id="services">
     </section>
+    <span class="anchor" id="contactsAnch"></span>
     <section class="contacts" id="contacts">
     </section>
   </div>
