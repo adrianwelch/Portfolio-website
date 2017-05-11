@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://use.fontawesome.com/a936edd937.js"></script>
     <script src="js/app.js" charset="utf-8"></script>
   </head>
   <body>
@@ -31,7 +32,7 @@
         <h1>Hi, I'm <br>Adrian Welch</h1>
         <p class="developer wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Web developer</p>
         <div class="control">
-          <a href="#contacts" class="btn wow fadeInUp" data-wow-delay="0.05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">Contact me</a>
+          <a href="#contacts" class="btn wow fadeInUp contactMe" data-wow-delay="0.05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">Contact me</a>
         </div>
       </div>
     </div>
@@ -57,7 +58,7 @@
           <div class="row">
             <div class="text-center col-md-8 col-md-offset-2">
               <h2 class="section-titler">View My CV</h2>
-              <p class="lead-text"> My previous experience lies within the PR and  before deciding to learn how to code myself. Click below for a copy of my résumé. </p>
+              <p class="lead-text"> My previous experience lies within the PR and corporate events before deciding to learn how to code myself. Click below for a copy of my CV. </p>
             </div>
           </div>
           <div class="section-buttons section-body-sm">
@@ -95,11 +96,11 @@
                       </div>
                   </figcaption>
                 </figure>
-
-                <button class="button" onclick="window.open('https://github.com/adrianwelch/Project-1');"><span class="View">View on Github</span></button>
+                <div class="gitProj1">
+                  <a class ="fa fa-github" href="https://github.com/adrianwelch/Project-1" target="_blank"></a>
+                </div>
               </a>
             </div>
-
             <div class="isotope-item branding" style="position: absolute; left: 50%; top: 0px;">
               <a href="scss/divebook.jpg" title="diveBook">
                 <figure class="img__wrap">
@@ -110,35 +111,40 @@
                       </div>
                     </div>
                 </figure>
-                <button class="button" onclick="window.open('https://github.com/adrianwelch/wdi25-project-2');"><span class="View">View on Github</span></button>
+                <div class="gitProj2">
+                  <a class ="fa fa-github" href="https://github.com/adrianwelch/wdi25-project-2" target="_blank"></a>
+                </div>
               </a>
             </div>
             <div class="isotope-item marketing" style="position: absolute; left: 0%; top: 437px;">
               <a href="scss/buff.jpg" title="Buff">
-                <figure class="showcase-item">
-                  <div class="showcase-item-thumbnail"><img alt="Buff" width="538" height="375" src="scss/buff.jpg"></div>
-                  <figcaption class="showcase-item-hover">
-                    <div class="showcase-item-info">
-                      <div class="showcase-item-category">Buff</div>
-                      <div class="showcase-item-title">MEN Stack App</div>
+                <figure class="img__wrap">
+                  <div><img class="img__img" alt="Buff" src="scss/buff.jpg"></div>
+                    <div class="showcase-item-info img__description">
+                      <div class="projTitle">Buff<br><h4><span class="db">MEAN</span>       Stack App</h4>
                     </div>
-                  </figcaption>
+                    </div>
                 </figure>
-                <button class="button" onclick="window.open('https://github.com/squaduno/jukebox');"><span class="View">View on Github</span></button>
+                <div class="gitProj3">
+                  <a class ="fa fa-github" href="https://github.com/AliceMarshall/wdi-project-3" target="_blank"></a>
+                </div>
               </a>
             </div>
+
+
             <div class="isotope-item video" style="position: absolute; left: 50%; top: 437px;">
               <a href="scss/travelog.jpg" title="Travelog">
-                <figure class="showcase-item">
-                  <div class="showcase-item-thumbnail"><img alt="travelog" width="538" height="375" src="scss/travelog.jpg"></div>
-                  <figcaption class="showcase-item-hover">
-                    <div class="showcase-item-info">
-                      <div class="showcase-item-category">College Tracker</div>
-                      <div class="showcase-item-title">MEAN Stack App</div>
+                <figure class="img__wrap">
+                  <div><img class="img__img" alt="travelog" src="scss/travelog.jpg"></div>
+                    <div class="showcase-item-info img__description">
+                      <div class="projTitle">travelog<br><h4>Web Application <br><br> <span class="db">A</span>ngular<span class="db">JS</span> (front-end) <br><br> Ruby on Rails (back-end)</h4>
                     </div>
-                  </figcaption>
+                    </div>
                 </figure>
-                <button class="button" onclick="window.open('https://github.com/rubisc/College_Tracker');"><span class="View">View on Github</span></button>
+                <div class="gitProj4">
+                  <a class ="fa fa-github" href="https://github.com/adrianwelch/project-4-api" target="_blank"><span class="githubFont">front-end</span></a>
+                  <a class ="fa fa-github" href="https://github.com/adrianwelch/project-4-frontend" target="_blank"><span class="githubFont">back-end</span></a>
+                </div>
               </a>
             </div>
             <!-- <div class="isotope-item digital">
