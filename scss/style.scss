@@ -12,6 +12,10 @@
   min-height: 50px;
 }
 
+.bgc-dark {
+  background-color: #282828;
+}
+
 // .active {
 //     color:#F38A8A;
 //     border-bottom:3px solid #F38A8A;
@@ -205,7 +209,7 @@ html {
 
 
 #contacts {
-  background-color: green;
+  // background-color: green;
   height: calc(100vh);
 }
 
@@ -484,4 +488,18 @@ h4 {
 
 .devicon-sass-original {
   font-size: 55px;
+}
+
+
+////footer
+
+
+.text-left-md {
+    text-align: left;
+}
+style.css:1051
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    padding: 2em 0;
 }
