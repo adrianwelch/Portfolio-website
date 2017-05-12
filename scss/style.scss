@@ -140,7 +140,7 @@ section {
 }
 
 .row-columns {
-  margin-top: -4em;
+  margin-top: -5em;
 }
 
 .row-padding {
@@ -149,8 +149,8 @@ section {
 }
 
 body {
-    min-height: 2000px;
-    padding-top: 70px; /*70px nabar height*/
+  min-height: 2000px;
+  padding-top: 70px; /*70px nabar height*/
 }
 
 p {
@@ -196,7 +196,7 @@ html {
 }
 
 #projects {
-  height: calc(100vh);
+  // height: calc(100vh);
 }
 
 #services {
@@ -253,7 +253,7 @@ ul {
 }
 
 .isotope {
-  margin-top: 4%;
+  margin-top: 3%;
 }
 
 // .showcase-item {
@@ -309,6 +309,16 @@ ul {
   width: 538px;
   height: 375px;
 }
+
+.images {
+  height: 250px;
+  width: 300px;
+}
+
+.columnPics {
+  margin-top: 35px;
+}
+
 
 .img__img {
   width: 538px;
@@ -387,5 +397,5 @@ h4 {
 .fa:hover {
   color: #970a1b;
   text-decoration: none;
-
+  transition: opacity .5s, visibility .2s;
 }
