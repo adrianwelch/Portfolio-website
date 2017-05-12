@@ -209,8 +209,7 @@ html {
 
 
 #contacts {
-  // background-color: green;
-  height: calc(100vh);
+  margin-bottom: 200px;
 }
 
 .img-responsive {
@@ -494,12 +493,26 @@ h4 {
 ////footer
 
 
-.text-left-md {
-    text-align: left;
-}
-style.css:1051
+// .text-left-md {
+//     text-align: left;
+// }
+
 .footer {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.85em;
-    padding: 2em 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85em;
+  padding: 2em 0;
+}
+
+.footerIcon {
+  color: white;
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+  margin-right: 35px;
+}
+
+.fa-github:before {
+  content: "\f09b";
+  margin-right: 35px;
 }
