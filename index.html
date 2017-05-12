@@ -5,10 +5,12 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/style.scss">
+    <link rel="ioniconsStylesheet" href="scss/ionicons.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script src="https://use.fontawesome.com/a936edd937.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
     <script src="js/app.js" charset="utf-8"></script>
   </head>
   <body>
@@ -77,18 +79,11 @@
               <h2 class="section-title">Projects</h2>
             </div>
           </div>
-          <!-- <ul class="filter">
-            <li class="active"><a href="#" data-filter="*">All</a></li>
-            <li><a href="scss/penalty.jpg" data-filter=".digital">Front-end JS Game</a></li>
-            <li><a href="scss/divebook.jpg" data-filter=".branding">Ruby on Rails App</a></li>
-            <li><a href="scss/buff.jpg" data-filter=".marketing">MEN Stack App</a></li>
-            <li><a href="scss/travelog.jpg" data-filter=".video">MEAN Stack App</a></li>
-          </ul> -->
           <div class="isotope js-gallery" style="position: relative; height: 874px;">
             <div class="isotope-item digital" style="position: absolute; left: 0%; top: 0px;">
               <a href="https://safe-harbor-23330.herokuapp.com/" target="_blank">
                 <figure class="img__wrap">
-                  <div><img class="img__img" alt="Project 1" src="scss/penalty.jpg"></div>
+                  <div><img class="img__img img-rounded" alt="Project 1" src="scss/penalty.jpg"></div>
                       <div class="showcase-item-title img__description">
                         <div class="projTitle">
                           Penalty Click-out <br> <h4>Frontend Javascript Game</h4>
@@ -104,7 +99,7 @@
             <div class="isotope-item branding" style="position: absolute; left: 50%; top: 0px;">
               <a href="scss/divebook.jpg" title="diveBook">
                 <figure class="img__wrap">
-                  <div><img class="img__img" alt="diveBook" src="scss/divebook.jpg"></div>
+                  <div><img class="img__img img-rounded" alt="diveBook" src="scss/divebook.jpg"></div>
                     <div class="showcase-item-info img__description">
                       <div class="projTitle">
                         diveBook <br> <h4>Node.js/Express App, built using <span class="db">M</span>ongo<span class="db">DB</span> </h4>
@@ -119,7 +114,7 @@
             <div class="isotope-item marketing" style="position: absolute; left: 0%; top: 437px;">
               <a href="scss/buff.jpg" title="Buff">
                 <figure class="img__wrap">
-                  <div><img class="img__img" alt="Buff" src="scss/buff.jpg"></div>
+                  <div><img class="img__img img-rounded" alt="Buff" src="scss/buff.jpg"></div>
                     <div class="showcase-item-info img__description">
                       <div class="projTitle">Buff<br><h4><span class="db">MEAN</span>       Stack App</h4>
                     </div>
@@ -135,7 +130,7 @@
             <div class="isotope-item video" style="position: absolute; left: 50%; top: 437px;">
               <a href="scss/travelog.jpg" title="Travelog">
                 <figure class="img__wrap">
-                  <div><img class="img__img" alt="travelog" src="scss/travelog.jpg"></div>
+                  <div><img class="img__img img-rounded" alt="travelog" src="scss/travelog.jpg"></div>
                     <div class="showcase-item-info img__description">
                       <div class="projTitle">travelog<br><h4>Web Application <br><br> <span class="db">A</span>ngular<span class="db">JS</span> (front-end) <br><br> Ruby on Rails (back-end)</h4>
                     </div>
@@ -154,14 +149,137 @@
 
 
     <span class="anchor" id="servicesAnch"></span>
-    <section class="services" id="services">
-    </section>
+    <section class="services section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-md-offset-2">
+              <h2 class="section-title">What I Use</h2>
+              <p class="lead-text">Below are some of the languages, frameworks, libraries, and other technologies I have worked with.</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="row-columns row lanng">
+              <div class="column col-md-4">
+                <i class="devicon-javascript-plain colored"></i>
+                <h4 class="lngText">Javascript</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="icon devicon-ruby-plain colored"></i>
+                <h4 class="lngText">Ruby</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="icon devicon-rails-plain colored"></i>
+                <h4 class="lngText">Rails</h4>
+              </div>
+            </div>
+
+            <div class="row lanng">
+              <div class="column col-md-4">
+                <i class="devicon-nodejs-plain colored"></i>
+                <h4 class="lngText">Node.js</h4>
+              </div>
+              <div class="column col-md-4 angular" style="margin-top: 53px;">
+                <i class="devicon-angularjs-plain colored"></i>
+                <h4 class="lngText">Angular</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="devicon-html5-plain"></i>
+                <h4 class="lngText">HTML</h4>
+              </div>
+            </div>
+            <div class="row lanng">
+              <div class="column col-md-4">
+                <i class="devicon-css3-plain colored"></i>
+                <h4 class="lngText">CSS</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="icon devicon-jquery-plain colored"></i>
+                <h4 class="lngText">jQuery</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="devicon-amazonwebservices-original colored"></i>
+                <h4 class="lngText">AWS</h4>
+              </div>
+            </div>
+            <div class="row lanng">
+              <div class="column col-md-4">
+                <i class="icon devicon-mongodb-plain colored"></i>
+                <h4 class="lngText">MongoDB</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="icon devicon-postgresql-plain colored"></i>
+                <h4 class="lngText">PostgresQL</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="devicon-mocha-plain colored"></i>
+                <h4 class="lngText" style="margin-top: 8px;">Mocha</h4>
+              </div>
+            </div>
+            <div class="row lanng">
+              <div class="column col-md-4">
+                <i class="devicon-gulp-plain colored"></i>
+                <h4 class="lngText" style="margin-top: 8px;">Gulp</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="devicon-sass-original colored"></i>
+                <h4 class="lngText" style="margin-top: 4px;">Sass</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="icon devicon-github-plain colored"></i>
+                <h4 class="lngText">Github</h4>
+              </div>
+            </div>
+            <div class="row lanng">
+              <div class="column col-md-4">
+                <i class="icon devicon-bootstrap-plain colored"></i>
+                <h4 class="lngText">Bootstrap</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="icon devicon-trello-plain colored"></i>
+                <h4 class="lngText">Trello</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="icon devicon-heroku-plain colored"></i>
+                <h4 class="lngText">Heroku</h4>
+              </div>
+              <div class="column col-md-4">
+                <i class="icon devicon-git-plain colored"></i>
+                <h4 class="lngText">Git</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <span class="anchor" id="contactsAnch"></span>
     <section class="contacts" id="contacts">
     </section>
   </div>
   </body>
 </html>
+
+
+
+
+
+
+
+
 
 
 <!-- <header id="top" class="navbar js-navbar-affix affix">
